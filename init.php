@@ -2,7 +2,7 @@
 $hookContainer = ClassRegistry::getObject('HookContainer');
 $hookContainer->registerElementHook(
 	'news', // target element name.
-	'../../plugins/cc_weather/views/elements/weather', // additional template you want to inject.
+	'../../Plugin/CcWeather/View/Element/weather', // additional template you want to inject.
 	true // it should be true when you want to inject before the target template.
 );
 $pluginContainer = ClassRegistry::getObject('PluginContainer');
