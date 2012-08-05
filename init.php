@@ -14,5 +14,5 @@ $hookContainer->registerElementHook(
 );
 
 $pluginContainer = ClassRegistry::getObject('PluginContainer');
-$pluginContainer->installed('cc_weather','0.1');
+$pluginContainer->installed('cc_weather','0.2');
 
